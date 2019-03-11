@@ -1,0 +1,32 @@
+.main{
+  border-style: groove;
+  height:600px;
+  width:800px;
+  background-color: whitesmoke;
+ 
+}
+header{
+  background-color: whitesmoke;
+  border-bottom-style: groove;
+}
+a{
+  color: blue;
+  display:inline-block;
+  padding: 5px;
+  /* float: left; */
+}
+a:visited{
+  color: blueviolet
+}
+a:hover{
+  color: red;
+}
+.top1{
+  margin-top:5px;
+  background-color: whitesmoke;
+}
+
+
+
+
+  

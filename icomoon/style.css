@@ -1,0 +1,140 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?1levu8');
+  src:  url('fonts/icomoon.eot?1levu8#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?1levu8') format('truetype'),
+    url('fonts/icomoon.woff?1levu8') format('woff'),
+    url('fonts/icomoon.svg?1levu8#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  /* speak: none; */
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-folder:before {
+  content: "\e92f";
+}
+
+.icon-display:before {
+  content: "\e956";
+}
+.icon-laptop:before {
+  content: "\e957";
+}
+.icon-mobile:before {
+  content: "\e958";
+}
+.icon-user-plus:before {
+  content: "\e973";
+  color: white;
+  margin:12px;
+  font-size: 45px;
+}
+.icon-clock:before {
+  content: "\e94e";
+  color: white;
+  margin:12px;
+  font-size: 45px;
+
+}
+.icon-cloud:before {
+  content: "\e9c1";
+  color: white;
+  margin:12px;
+  font-size: 45px;
+}
+.icon-plus:before {
+  content: "\ea0a";
+}
+.icon-checkmark:before {
+  content: "\ea10";
+}
+.icon-circle-right:before {
+  content: "\ea42";
+  font-size: 20px;
+}
+.icon-circle-left:before {
+  content: "\ea44";
+  font-size: 20px;
+}
+
+.main{
+  border-style: groove;
+  height:600px;
+  width:800px;
+  background-color: whitesmoke;
+}
+header{
+  background-color: whitesmoke;
+  border-bottom-style: ridge;
+  height: 20px;
+  width: 800px;
+}
+a{
+  color: blue;
+  display:inline-block;
+  padding: 5px;
+  font-size: 15px;
+  text-decoration: none;
+  /* float: left; */
+}
+a:visited{
+  color: blueviolet
+}
+a:hover{
+  color: red;
+}
+section{
+  background-color: whitesmoke;
+}
+.top1{
+  padding:5px;
+  border-bottom-style: ridge;
+}
+input[type="search"]
+{
+  width: 200px;
+  height: 25px;
+}
+
+.leftdiv{
+  float: left;
+  background-color: black;
+  width: 80px;
+  height: 500px;
+}
+img{
+  height: 50px;
+  width: 50px;
+  margin:12px;
+}
+.rightdiv{
+  background-color: white;
+  width: 800px;
+  height: 500px;
+  border-bottom-style: ridge;
+}
+.r1div{
+  height:100px;
+  width: 800px;
+  margin-bottom: 5px;
+}
+.s1div{
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 5px;
+  margin-top:10px;
+}
